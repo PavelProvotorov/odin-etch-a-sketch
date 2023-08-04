@@ -1,0 +1,171 @@
+html {
+    /* Size */
+    height: 100%;
+}
+
+body {
+    /* Size */
+    height: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    /* Color */
+    background-color: white;
+
+    /* Size */
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.color-picker-container {
+    /* Size */
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.color-picker-wrapper {
+    /* Size */
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.color-picker {
+    /* Other */
+    position: absolute;
+    opacity: 0;
+
+    /* Size */
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-slider-container {
+    /* Flex */
+    display: flex;
+    flex: 1;
+
+    line-height: 1;
+    border-width: 2px;
+    border-style: outset;
+    border-color: black;
+
+    /* Color */
+    background-color: white;
+
+    /* Size */
+    padding: 5px;
+    margin: 0;
+}
+
+.grid-slider {
+    /* Flex */
+    flex: 1;
+
+    /* Size */
+    padding: 0;
+    margin: 0;
+}
+
+.body-content-wrapper {
+    /* Other */
+    box-shadow: 0px 0px 12px black;
+
+    /* Size */
+    padding: 0;
+    margin: 0;
+}
+
+.body-container {
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    /* Color */
+    background-color: salmon;
+
+    /* Size */
+    height: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.canvas-container {
+    /* Flex */
+    display: flex;
+    
+    /* Size */
+    padding: 0;
+    margin: 0;
+}
+
+.canvas {
+    /* Grid */
+    display: grid;
+    grid-gap: 1px;
+    background-color: whitesmoke;
+
+     /* Other */
+    border: 3px solid black;
+
+    /* Size */
+    width: 480px;
+    height: 480px;
+    padding: 0;
+    margin: 0;
+}
+
+.options-container {
+    /* Flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    /* Other */
+    border: 1px solid black;
+
+    /* Size */
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.cell {
+    /* Color */
+    background-color: white;
+
+    /* Size */
+    aspect-ratio: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.selected {
+    /* Color */
+    background-color:blanchedalmond;
+    /* Other */
+    border-style: dashed;
+}
+
+#__currentColor__ {
+    /* Other */
+    position: absolute;
+
+    /* Size */
+    width: 46px;
+    height: 11px;
+    padding: 0;
+    margin: 0;
+}

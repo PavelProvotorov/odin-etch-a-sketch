@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Etch A Sketch made with help of the Odin Project">
+    <meta name="author" content="Pavel Provotorov">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Etch A Sketch</title>
+</head>
+<body>
+    <div id="__bodyContainer__" class="body-container">
+        <div class="body-content-wrapper">
+            <div id="__canvasContainer__" class="canvas-container">
+                <div id="__canvas__" class="canvas">
+                </div>
+            </div>
+            <div id="__optionContainer__" class="options-container">
+                <button data-mode="EDIT" id="__editButton__" class="material-symbols-outlined">stylus</button>
+                <button data-mode="ERASE" id="__eraseButton__" class="material-symbols-outlined">ink_eraser</button>
+                <button data-mode="RANDOM" id="__randomButton__" class="material-symbols-outlined">hotel_class</button>
+                <button id="__clearButton__" class="material-symbols-outlined">scan_delete</button>
+                <div id="__colorPickerContainer__" class="color-picker-container">
+                    <button id="__colorPickerButton__" class="material-symbols-outlined">
+                        palette
+                        <div class="color-picker-wrapper">
+                            <input type="color" id="__colorPicker__" class="color-picker">
+                        </div>
+                        <div id="__currentColor__"></div>
+                    </button>
+                </div>
+                <div class="grid-slider-container">
+                    <input type="range" max="3" value="0" id="__gridSlider__" class="grid-slider">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
